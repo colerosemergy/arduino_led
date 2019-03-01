@@ -1,0 +1,16 @@
+void setup(){
+	pinMode(0,OUTPUT);
+	pinMode(1,OUTPUT);
+}
+
+void loop(){
+	digitalWrite(0,HIGH);	/*Turns the LED connected to pin 0 on */
+	delay(100);				/*Leaves the LED on for 100 miliseconds(ms)*/
+	digitalWrite(0,LOW);	/*Turns the LED connected to pin 0 off*/
+	delay(100);				/*Waits 100ms*/
+	digitalWrite(1,HIGH);	/*Turns on the LED connected to pin 1*/
+	delay(100);				/*Waits 100ms*/
+	digitalWrite(1,LOW);	/*Turns the LED connected to pin 1 off*/
+	delay(100);				/*Waits another 100ms before completing the loop, and running again*/
+
+}
